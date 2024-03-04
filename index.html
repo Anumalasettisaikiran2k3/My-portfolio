@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3b284e883e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/kiran logo final test.jpg" alt="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX designer</p>
+                <h1>Hey! I'm<span> Saikiran</span> <br>from AndhraPradesh</h1>
+            </div>
+        </div>
+    </div>
+    <!---------about------------>
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/userimage.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>An enthusiasm for making visualisation of brands, 
+                Where my heart full of creativity and brain fed off
+                business makes me!!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')"> Skills</p> 
+                    <p class="tab-links" onclick="opentab('Experience')"> Experience</p> 
+                    <p class="tab-links" onclick="opentab('Education')"> Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>UI?UX</span></li><br>Designing a web/app Interface</li>
+                        <li><span>Developer</span><br>Web development/App Development</li>
+                        <li><span>Analyst</span><br>Data Analysis</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2024 -Current</span></li><br>Working as an intern in Bharat intern</li>
+                        <li><span>2021 - 2023</span><br>Worked as faculty in Coursera </li>
+                        <li><span>2018 - 2021</span><br>Worked as an active participant in ALL IS WELL Organization</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Persuing Computer Science engineering in Gujarat</li>
+                        <li><span>2019-2021</span><br>Completed Intermediate from Narayana College</li>
+                        <li><span>2018-2019</span><br>Completed 10th standard from Narayana College</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!----------------------services--------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consecutor adipisting elit. Sed nulla nibha, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h3>App Design</h3>
+                <p>Lorem ipsum dolor sit amet consecutor adipisting elit. Sed nulla nibha, tincidunt sit amet sapien quis.</p>
+                <a href="#"> Learn more</a>
+            </div> 
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h3>UI/UX design</h3>
+                <p>Lorem ipsum dolor sit amet consecutor adipisting elit. Sed nulla nibha, tincidunt sit amet sapien quis.</p>
+                <a href="#"> Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------Portfolio------------------>
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The App Connects u with the most talented people around the world! You can Download it from the Playstore</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3> Music App</h3>
+                    <p>The App Connects u with the most talented people around the world! You can Download it from the Playstore</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div><div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The App Connects u with the most talented people around the world! You can Download it from the Playstore</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+<!-- ---------------contact------- -->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>saikiran.a2k3@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7816044490</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.snapchat.com/"><i class="fa-brands fa-snapchat"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://web.telegram.org/"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="images/SAIKIRAN RESUME final.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @kiran. Commitment with <i class="fa-solid fa-heart"></i> Sreesai Technologies <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxDx60rqlHzDm_SlyG4KCW7-zzI8x7XG0lTtFtuZ91kCpnhk0oOiUI9e9NGMTXoWLRG/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
+</body>
+</html>
